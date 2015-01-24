@@ -1,3 +1,4 @@
+/* 
  Copyright (c) 2015, Laurent Bourges. All rights reserved.
 
  Redistribution and use in source and binary forms, with or without
@@ -20,4 +21,19 @@
  CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
  OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+package org.jnumbers;
 
+import junit.framework.TestCase;
+
+/**
+ * Run benchmarks from JUnit
+ * @author Laurent Bourges
+ */
+public class BenchmarkTest extends TestCase {
+
+    public void testBenchmark() throws Exception {
+        NumberParserBenchmark.main(null);
+    }
+
+}
